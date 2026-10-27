@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeLab — практика JavaScript</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="wrap">
+    <a class="logo" href="#">CodeLab</a>
+    <nav class="nav">
+      <a href="#courses">Курсы</a>
+      <a href="#about">О школе</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <h1>Учимся делать сайты живыми</h1>
+      <p>Школа программирования. Разбираем HTML, CSS и JavaScript на практике — от первой страницы до готового проекта.</p>
+      <a class="btn" href="#courses">Смотреть курсы</a>
+    </div>
+  </section>
+
+  <section class="block" id="courses">
+    <div class="wrap">
+      <h2>Курсы</h2>
+      <ul class="courses">
+        <li>
+          <h3>HTML</h3>
+          <p>Заголовки, тексты, картинки и ссылки: из чего состоит страница.</p>
+        </li>
+        <li>
+          <h3>CSS</h3>
+          <p>Цвета, шрифты и сетки: как сделать страницу красивой и удобной.</p>
+        </li>
+        <li>
+          <h3>JavaScript</h3>
+          <p>Таймеры, кнопки и окна: как оживить сайт.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="block" id="about">
+    <div class="wrap">
+      <h2>О школе</h2>
+      <p class="about">Занятия проходят в небольших группах. После каждой темы — практика: ученики сами пишут код и сразу видят результат в браузере.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" id="contacts">
+  <div class="wrap">
+    <a href="mailto:hello@codelab.test">hello@codelab.test</a>
+    <p>© 2026 CodeLab</p>
+  </div>
+</footer>
+
+<div class="notification" id="notification" role="alert">
+  <button class="notification__close" id="close-btn" type="button" aria-label="Закрыть уведомление">×</button>
+  <p class="notification__title">Есть новости!</p>
+  <p class="notification__text">На сайте появились новые материалы. Загляните в раздел «Курсы».</p>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
